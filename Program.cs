@@ -13,6 +13,8 @@ namespace NumberGuesser
             string appName = "Number Guesser";
             string appVersion = "1.0.0";
             string appAuthor = "Jordan Forbes";
+
+            Console.WriteLine("{0}: Version {1} by {2}", appName, appVersion, appAuthor);
         }
     }
 }
